@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div className="">
       <Head>y
         <title>Decent</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bg-logo.png" />
       </Head>
 
      <Header/>
