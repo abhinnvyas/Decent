@@ -1,19 +1,20 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Header'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
     <div className="">
-      <Head>y
-        <title>Decent</title>
+      <Head>
+        y<title>Decent</title>
         <link rel="icon" href="/bg-logo.png" />
       </Head>
 
-     <Header/>
+      {/* <Header/> */}
+      <Home />
+      {/* Data */}
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
